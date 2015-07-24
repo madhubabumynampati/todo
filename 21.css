@@ -1,0 +1,111 @@
+.menu{
+	
+	background-color: #485056; ;
+	width: 100%;
+	
+	
+    text-align: center;
+    margin-top: none; 
+    
+}
+ul
+{
+	margin: 0;
+}
+body
+{
+	margin: 0;
+}
+ul li
+{
+
+	list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', verdana;
+    padding: 10px 30px 10px 30px;
+}
+ul li:hover{
+	background-color: #2b7845;
+}
+ul li a{
+	
+	text-decoration: none;
+    display:inline;
+    width: 60px;
+    color: white;
+
+}
+ul li a:hover{
+  	background-color: #2b7845;
+}
+ul li.current a {
+  	color: #fff;
+  	border-color: #070;
+  	background-color: #2b7845;
+}
+.container
+{
+	width: 100%;
+	min-height: 600px;
+	background-color: #F0F0F0 ;
+	
+}
+.date{
+	text-align: center;
+	height: 100px;
+	font-size: 36px;
+	padding-top: 30px;
+	font-family: 'Roboto Condensed', verdana;
+	color: #384046;
+
+}
+.content
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	min-height: 160px;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	font-family: 'Roboto Condensed', verdana;border-radius: 10px;
+	border:none;
+
+}
+input[type="text"] 
+      {
+         width: 99%;
+         border: 1px solid #CCC;
+         height: 40px;
+         font-family: verdana;
+         font-size: 20px;
+         background-color: #F0F0F0 ;
+
+      }
+input:checked+label
+{
+	color: green;
+	text-decoration: line-through;
+}
+#my-tooltip
+{
+	width: 100px;
+	height: 50px;
+}
+.bt
+{
+	float: right;
+}
+.et
+{
+	float: right;
+}
+input[type="checkbox"]{
+	float: left;
+}
+label{
+	float: left;
+}
